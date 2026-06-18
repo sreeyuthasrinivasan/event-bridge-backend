@@ -119,6 +119,12 @@ class Feedback(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
 
+# Create tables on startup if they don't already exist (safe no-op otherwise).
+# Runs under gunicorn since the module is imported at boot.
+with app.app_context():
+    db.create_all()
+
+
 # ─────────────────────────────────────────
 # HELPERS
 # ─────────────────────────────────────────
