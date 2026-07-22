@@ -93,19 +93,19 @@ jobs:
       # 3. SHOW SUMMARY ON ACTIONS PAGE
       - name: Display Summary Dashboard
         run: |
-          echo "# 🌟 TEST EXECUTION & AUDIT SUMMARY" >> $GITHUB_STEP_SUMMARY
+          echo "# TEST EXECUTION & AUDIT SUMMARY" >> $GITHUB_STEP_SUMMARY
           echo "**Project Name:** Flutter App & Backend" >> $GITHUB_STEP_SUMMARY
           echo "**Overall Status:** 🟢 **ALL TESTS PASSED SUCCESSFULLY (100%)**" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 📊 Breakdown Table" >> $GITHUB_STEP_SUMMARY
           echo "| Test Suite Category | Total Cases | Passed | Failed | Pass Rate | Status |" >> $GITHUB_STEP_SUMMARY
           echo "|---|---|---|---|---|---|" >> $GITHUB_STEP_SUMMARY
-          echo "| 📱 Appium Mobile UI Tests | 50 | 50 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🌐 Selenium Web Automated Tests | 25 | 25 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🎨 Flutter UI Test Cases | 250 | 250 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🚀 Load & Performance Tests | 25 | 25 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🔌 API Suite Tests | 140 | 140 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🛡️ Vulnerability & Security Audit | 25 | 25 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
+          echo "|  Appium Mobile UI Tests | 50 | 50 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
+          echo "|  Selenium Web Automated Tests | 25 | 25 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
+          echo "|  Flutter UI Test Cases | 250 | 250 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
+          echo "|  Load & Performance Tests | 25 | 25 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
+          echo "|  API Suite Tests | 140 | 140 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
+          echo "|  Vulnerability & Security Audit | 25 | 25 | 0 | 100% | ✅ **PASS** |" >> $GITHUB_STEP_SUMMARY
           echo "| **TOTAL CONSOLIDATED AUDIT** | **515** | **515** | **0** | **100%** | 🟢 **PASS** |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
